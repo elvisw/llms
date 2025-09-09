@@ -16,6 +16,7 @@ import { CerebrasTransformer } from "./cerebras.transformer";
 import { StreamOptionsTransformer } from "./streamoptions.transformer";
 import { OpenAITransformer } from "./openai.transformer";
 import { CustomParamsTransformer } from "./customparams.transformer";
+import { EnableThinkingTransformer } from "./enable_thinking.transformer";
 
 export default {
   AnthropicTransformer,
@@ -35,5 +36,6 @@ export default {
   MaxCompletionTokens,
   CerebrasTransformer,
   StreamOptionsTransformer,
-  CustomParamsTransformer
+  CustomParamsTransformer,
+  EnableThinkingTransformer
 };

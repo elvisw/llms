@@ -106,6 +106,8 @@ export interface UnifiedChatRequest {
 
     enabled?: boolean;
   };
+  // Enable thinking mode for LLMs that support it
+  enable_thinking?: boolean;
 }
 
 // 统一的响应接口
